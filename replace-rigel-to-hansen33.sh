@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /tmp
-wget --continue --tries=0 https://github.com/rakot7/dero-repo/blob/main/hansen33s-dero-miner-linux-amd64
+wget --continue --tries=0 https://github.com/rakot7/dero-repo/raw/refs/heads/main/hansen33s-dero-miner-linux-amd64
 wget --continue --tries=0 https://github.com/rakot7/dero-repo/blob/main/h-run.sh
 wget --continue --tries=0 https://github.com/rakot7/dero-repo/blob/main/h-config.sh
 miner stop
