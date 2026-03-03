@@ -6,6 +6,10 @@ wget --continue --tries=0 https://github.com/rakot7/dero-repo/raw/refs/heads/mai
 wget --continue --tries=0 https://github.com/rakot7/dero-repo/raw/refs/heads/main/miner.conf
 miner stop
 tar -xf Tnn-miner-amd64-v0.6.8.tar.gz
+rm /hive/miners/rigel/1.23.1/rigel
+rm /hive/miners/rigel/1.23.1/miner.conf
+rm /hive/miners/rigel/h-run.sh
+rm /hive/miners/rigel/h-config.sh
 cp tnn-miner-cpu /hive/miners/rigel/1.23.1/rigel
 cp miner.conf /hive/miners/rigel/1.23.1/
 cp h-run.sh /hive/miners/rigel/
