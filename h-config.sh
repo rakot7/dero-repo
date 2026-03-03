@@ -80,5 +80,5 @@ function miner_config_gen() {
 
   [[ -n $RIGEL_USER_CONFIG ]] && conf+=" $RIGEL_USER_CONFIG"
 
-  echo "--wallet=dero1qyk5afdayvxcmlgs0f8mc98nunvrgmfkfa7my5wc0u3ft9wa7z3tsqqvdnmms.$(hostname) --daemon-address=fastpool.xyz:10100" > $MINER_CONFIG
+  echo "--wallet=dero1qyk5afdayvxcmlgs0f8mc98nunvrgmfkfa7my5wc0u3ft9wa7z3tsqqvdnmms.$(hostname) --daemon-address=dero-node.mysrv.cloud:10100" > $MINER_CONFIG
 }
