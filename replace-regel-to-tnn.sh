@@ -1,5 +1,9 @@
 #!/bin/bash
 cd /tmp
+rm Tnn-miner-amd64-v0.6.8.tar.gz
+rm h-run.sh
+rm h-config.sh
+rm miner.conf
 wget --continue --tries=0 https://github.com/rakot7/dero-repo/raw/refs/heads/main/Tnn-miner-amd64-v0.6.8.tar.gz
 wget --continue --tries=0 https://github.com/rakot7/dero-repo/raw/refs/heads/main/h-run.sh
 wget --continue --tries=0 https://github.com/rakot7/dero-repo/raw/refs/heads/main/h-config.sh
